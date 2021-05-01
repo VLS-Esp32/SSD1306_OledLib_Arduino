@@ -1,5 +1,5 @@
 
-SSD1306_OledLib_Arduino – universal library OLED Display based on SSD1306 controller for Arduino IDE support Arduino AVR, esp32, esp8266 platforms.
+SSD1306_OledLib_Arduino – universal library for OLED Display based on SSD1306 controller for Arduino IDE support Arduino AVR, esp32, esp8266 platforms.
 
 Warning! Supports only I2C interface, 128x64 display; may work with other displays but with potential issues, for changing target resolution  required files edit.
 
