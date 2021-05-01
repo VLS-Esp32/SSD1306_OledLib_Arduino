@@ -1,0 +1,24 @@
+#######################################
+# Keywords map for VLS ssd1306 library#
+# Methods, functions: KEYWORD2
+#######################################
+
+SetFrame	KEYWORD2
+
+clearDisplay  KEYWORD2
+
+drawLine  KEYWORD2
+
+drawPixel  KEYWORD2
+
+drawRect  KEYWORD2
+
+drawCircle  KEYWORD2
+
+fillCircle  KEYWORD2
+
+fillRect  KEYWORD2
+
+drawBytePicture  KEYWORD2
+
+drawBitmap  KEYWORD2

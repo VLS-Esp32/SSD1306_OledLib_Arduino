@@ -1,0 +1,37 @@
+class VLS_DisplayCore 
+Observe exmples to know practical using
+
+void begin (unsigned char address); System voids Initialize  display.  Vire  demand adress - adress of yours display 
+
+void begin (); Automatic initializing recomended params
+
+void setBrightness(byte Brightness); This void takes agrument from 0 to 255
+
+void drawPixel(int x,int y,bool md); Turn on/off for pixel with coordinates  X Y depending on the value of the mд
+
+bool IsPixelSet(int x, int y); Return true if pixel with coordonates X Y is turned on, else - folse 
+
+void clearDisplay();  Copmletly erase display,  
+
+void SetFrame();   Set buffer data on display; Always required call for apply changes on display  
+
+void drawRect(int x1,int y1, int x2, int y2, bool md); Drow Rectangle X1, Y1- Upper left point, X2, Y2- lower right point, md - pixel mode true-on, false – off
+
+void drawLine(int x1, int y1, int x2, int y2, bool md); Connect`s to point`s X1, Y1- first point, X2, Y2- second point, md - pixel mode true-on, false – off
+
+void drawCircle(int x1, int y1, int r, bool md);  Draw circle X, Y - Center, R -radius, md - pixel mode true-on, false – off
+
+void fillRect(int x1,int y1, int x2, int y2, bool md); Fill`s rectangle X1, Y1- Upper left point, X2, Y2- lower right point, md - pixel mode true-on, false – off
+
+void fillCircle(int x1, int y1, int r, bool md);  Fill`s Circle X, Y - Center, R -radius, md - pixel mode true-on, false – off
+
+void drawBytePicture(int x,int y, byte Picture[],int SizeX, int SizeY); Drawing a picture from byte array (0 or 1) x,y -Top left coordinate, Picture - array of bytes(0 or 1), SizeX,SizeY - size of picture   
+ 
+void drawBitmap(int x,int y, const uint8_t Picture[],int SizeX, int SizeY); Drawing  bitmap from byte array. Supports the same arrays as Adafruit ssd1306
+  
+void print(int x, int y, String data);
+void print(int x, int y, int data);
+void print(int x, int y, float data);
+void print(int x, int y, char data);
+void print(int x, int y, char data[]);
+Pirnt`s text with different types of data  in size 7x13, X Y – top left point 
