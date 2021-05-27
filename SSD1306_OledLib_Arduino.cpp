@@ -532,7 +532,7 @@ void VLS_DisplayCore::fillCircle(int x, int y, int r, bool md){  //Bresenhem alg
         
        TmpX=(x-(r+1));
        TmpY+=1;
-       Serial.println(i);
+      //Serial.println(i); Debug!!
      }        
    }
  }
