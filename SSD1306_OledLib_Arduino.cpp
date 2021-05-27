@@ -685,7 +685,7 @@ for(int i=0;i<sz;i++){ // The cycle of art :)
    
     for(int i=0;i<(data.length());i++){ //print cycle
     byte tmp=buff[i]; //Select char
-    Serial.println(buff[i]); //Debug
+   // Serial.println(buff[i]); //Debug
     if(tmp>32&&tmp<126){ // Foolproof  #2
       
       drawChar(x,y,mainFont[(tmp-32)],7,13); //Draw char
